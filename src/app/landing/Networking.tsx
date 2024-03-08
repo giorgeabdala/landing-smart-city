@@ -1,5 +1,4 @@
 import Area from "@/app/components/Area";
-import Menu from "@/app/components/Menu";
 
 
 export default function Networking() {
@@ -14,9 +13,10 @@ export default function Networking() {
 
 
                 <div className="flex-col leading-loose">
-                    <p>O Smart City Expo Curitiba é o principal evento de cidades inteligentes do Brasil. Com o tema "Reinventando cidades para todos", a quinta edição acontecerá nos dias 20, 21 e 22 de março de 2024 no Centro de Eventos Positivo, no Parque Barigui. O evento reúne representantes do setor público, empresas, universidades e sociedade civil, oferecendo oportunidades de networking e apresentação de projetos inovadores.</p>
+                    <p>O Smart City Expo Curitiba é o principal evento de cidades inteligentes do Brasil.
+                        Com o tema {"\""}Reinventando cidades para todos{"\""}, a quinta edição acontecerá nos dias 20, 21 e 22 de março de 2024 no Centro de Eventos Positivo, no Parque Barigui.
+                        O evento reúne representantes do setor público, empresas, universidades e sociedade civil, oferecendo oportunidades de networking e apresentação de projetos inovadores.</p>
 
-                    <p> </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 w-auto h-auto">
