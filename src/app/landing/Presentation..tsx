@@ -16,12 +16,12 @@ export default function Presentation(props: PresentationProps) {
                 <h2>20 a 22 de Março</h2>
                 <div className="flex flex-col text-center  gap-4 font-body">
                     <p>Preparado para mergulhar em um universo de tecnologia e inovação?</p>
-                    <p>Venha fazer parte desse grande evento junto com a POLKADOT BRASIL🚀</p>
+                    <p>Você tem a oportunidade de participar do sorteio dos ingressos Congress para o Smart City Curitiba 2024, um evento essencial para aqueles interessados no futuro das cidades inteligentes!🚀</p>
                 </div>
 
 
                 <Link href="#ticket">
-                <ButtonDefault className="mb-10" text={"Garanta seu passaporte"} />
+                <ButtonDefault className="mb-10" text={"Participar do sorteio"} />
                 </Link>
 
 
