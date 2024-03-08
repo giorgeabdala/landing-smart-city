@@ -1,12 +1,11 @@
 import Area from "@/app/components/Area";
 import Menu from "@/app/components/Menu";
-import Image from "next/image";
 
 
 export default function Networking() {
     return (
 
-        <Area className="bg-background-primary">
+        <Area className="bg-background-secondary">
             <div className="flex flex-col items-center justify-center font-body text-justify text-2xl gap-8 mt-10 mb-20 ">
 
                 <div className="flex font-background  opacity-10 text-5xl font-black lg:text-9xl md:text-8xl">

@@ -7,6 +7,7 @@ import Schedule from "@/app/landing/Schedule";
 import Ticket from "@/app/landing/Ticket";
 import ButtonDefault from "@/app/components/Button";
 import Footer from "@/app/landing/Footer";
+import Matters from "@/app/landing/Matters";
 
 
 
@@ -18,6 +19,7 @@ export default function Landing() {
             <Logo />
             <Presentation />
             <Networking />
+            <Matters />
             <Schedule />
             <Ticket />
             <Footer />

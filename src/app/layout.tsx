@@ -6,12 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://polkadot.com.br'),
-  title: 'Polkadot Brasil - Blockchain Rio 2023',
-  description: 'Polkadot Brasil te leva para a Blockchain Rio 2023',
+  title: 'Polkadot Brasil - Smart City Expo Curitiba 2024',
+  description: 'Polkadot Brasil te leva para a Smart City Expo Curitiba 2024',
 
     openGraph: {
-        title: 'Polkadot Brasil - Blockchain Rio 2023',
-        description: 'Polkadot Brasil te leva para a Blockchain Rio 2023',
+        title: 'Polkadot Brasil - Smart City Expo Curitiba 2024',
+        description: 'Polkadot Brasil te leva para a Smart City Expo Curitiba 2024',
         url: 'https://polkadot.com.br',
         siteName: 'Polkadot Brasil',
       images: [
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Polkadot Brasil - Blockchain Rio 2023',
-        description: 'Polkadot Brasil te leva para a Blockchain Rio 2023',
+        title: 'Polkadot Brasil - Smart City Expo Curitiba 2024',
+        description: 'Polkadot Brasil te leva para a Smart City Expo Curitiba 2024',
         images: ['https://polkadot.com.br/twitter-image.png'],
     } ,
 }

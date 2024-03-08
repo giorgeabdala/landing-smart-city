@@ -53,7 +53,7 @@ export default function TwitterModal(props: TwitterModalProps) {
                                             do seu navegador e preencha o formulário que será disponiblizado.
                                         </p>
                                         <p>
-                                            3 -  Prepare-se para uma imersão alucinante na Blockchain Rio!
+                                            3 -  Prepare-se para uma imersão alucinante na Smart City Curitiba!
                                         </p>
 
                                     </div>
