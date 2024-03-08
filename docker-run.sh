@@ -1,4 +1,5 @@
 git pull
+prisma generate
 docker build -t smart-city-curitiba-2024 .
 docker stop smart-city-curitiba-2024
 docker rm smart-city-curitiba-2024
