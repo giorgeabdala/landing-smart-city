@@ -27,4 +27,20 @@ model Event {
   name  String
   date  DateTime
   users User[]
+  swags Swag[]
+}
+
+model Swag {
+  id        String   @id @default(uuid())
+  name      String
+  phone     String   @unique
+  email     String   @unique
+  Empresa   String
+  Cargo     String
+  Feedback  String
+  eventId   String
+  event     Event    @relation(fields: [eventId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@index([eventId], map: "Swag_eventId_fkey")
 }
