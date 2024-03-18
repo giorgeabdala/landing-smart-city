@@ -4,7 +4,6 @@ import React, {useEffect, useState} from 'react';
 import Modal from 'react-modal';
 import TicketForm from "@/app/components/TicketForm";
 
-const tweetId = '1686736224172572672';
 
 interface TwitterModalProps {
     isOpen: boolean;
