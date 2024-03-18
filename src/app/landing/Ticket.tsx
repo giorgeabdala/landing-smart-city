@@ -16,7 +16,7 @@ export default function Ticket() {
                     <div className="flex flex-col  justify-center font-body text-justify leading-loose text-2xl text-zinc-100 gap-4">
 
                         <p>
-                            Participe do sorteio para o SmartCity Curitiba 2024 e tenha a chance de
+                            Garanta seu ingresso para o SmartCity Curitiba 2024 e tenha a chance de
                             estar no coração das discussões sobre inovação e cidades inteligentes.
                         </p>
                         <p>Para realizar sua inscrição clique no botão abaixo e siga as instruções na próxima tela. </p>

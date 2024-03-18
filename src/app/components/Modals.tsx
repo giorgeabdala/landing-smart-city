@@ -9,6 +9,11 @@ import ButtonDefault from "@/app/components/Button";
 export default function Modals() {
     const [twitterModal, setTwitterModal] = useState(false);
     const [formModal, setFormModal] = useState(false);
+
+    const redirect = () => {
+        window.location.href = "https://forms.gle/zqWA5qyPSuovQLSf7";
+    }
+
     return (
         <div>
             <ButtonDefault
@@ -16,8 +21,7 @@ export default function Modals() {
                 onClick={() => setTwitterModal(true)}
             />
 
-            <TwitterModal isOpen={twitterModal} setOpen={setTwitterModal} nextStep={() => setFormModal(true)} />
-            <FormModal isOpen={formModal} setIsOpen={setFormModal}/>
+            <TwitterModal isOpen={twitterModal} setOpen={setTwitterModal} nextStep={() => redirect()} />
 
 
         </div>
