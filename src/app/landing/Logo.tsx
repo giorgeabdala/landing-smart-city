@@ -1,5 +1,4 @@
 import Area from "@/app/components/Area";
-import logo from "/logo.png";
 import Image from 'next/image'
 
 
@@ -9,8 +8,11 @@ export default function Logo() {
         <Area className="bg-transparent">
             <div className="flex flex-col items-center justify-center ">
                 {/* eslint-disable-next-line react/jsx-no-undef */}
-                <Image src="/logo_transparent.png" alt="logotipo da comunidade Polkadot Brasil" width={500} height={500} />
-                <h1 className="text-2xl sm:text-3xl font-bold text-white font-title">POLKADOT BRASIL</h1>
+                <div className="flex items-center mt-6 justify-center ">
+                    <Image className="rounded-2xl" src="/dotSmart.jpeg"
+                           alt="logotipo da comunidade Polkadot Brasil na Smart City" width={600} height={600}/>
+                </div>
+                <h1 className="text-2xl sm:text-3xl mt-12 font-bold text-white font-title">POLKADOT BRASIL</h1>
             </div>
 
         </Area>
