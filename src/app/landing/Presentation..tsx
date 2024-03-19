@@ -11,7 +11,7 @@ export default function Presentation(props: PresentationProps) {
     return (
         <Area className="bg-transparent">
             <div id="start" className={`flex flex-col items-center justify-center leading-loose
-            text-2xl text-white font-title  gap-8`}>
+             md:text-2xl text-white font-title  gap-8`}>
                 <h2 className="text-zinc-400">SMARTCITY CURITIBA 2024</h2>
                 <h2>20 a 22 de Março</h2>
                 <div className="flex flex-col text-center  gap-4 font-body">

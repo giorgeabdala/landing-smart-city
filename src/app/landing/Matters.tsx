@@ -8,7 +8,7 @@ export default function Matters() {
            <div className=" flex flex-col font-body font-bold items-center my-20 leading-loose
            ">
 
-                   <p className="text-xl text-green-500">SMART CITY EXPO CURITIBA</p>
+                   <p className="md:text-xl text-green-500">SMART CITY EXPO CURITIBA</p>
                    <p className="text-base  text-zinc-100">TÓPICOS E ASSUNTOS </p>
            </div>
            <div className="mt-10 mb-36">
