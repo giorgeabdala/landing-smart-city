@@ -82,10 +82,10 @@ export default function SwagForms() {
         setDisplaySpinner(true);
         console.log("submit");
         const code = await storeSwag();
-        if (code) {
-            if (await sendWhats(code)) {
-                return router.push("/checkout/sucess");
-            }}
+        if (code)                 return router.push("/checkout/sucess");
+        //comentado para enviar mensagem no whatsapp
+        //   { if (await sendWhats(code)) {
+         //   }}
         return router.push("/checkout/error");
     }
 

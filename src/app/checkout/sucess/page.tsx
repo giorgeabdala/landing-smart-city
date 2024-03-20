@@ -17,7 +17,7 @@ export default function checkout() {
                     </div>
                     <div>
                         <p>Cadastro concluído!</p>
-                        <p className="mt-2">Verifique se recebeu uma mensagem no whatsapp com o código de retirada de seus brindes..</p>
+                        <p className="mt-2">Apresente essa mensagem para retirar seus brindes..</p>
                     </div>
 
             </div>
