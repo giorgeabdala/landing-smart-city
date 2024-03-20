@@ -4,7 +4,7 @@ import SwagForms from "@/app/components/SwagForms";
 
 export default function Swag() {
     return (
-        <Area className="bg-background-secondary h-screen">
+        <Area className="bg-background-secondary h-full w-full">
             <SwagForms />
         </Area>
     )

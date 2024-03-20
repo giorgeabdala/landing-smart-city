@@ -91,7 +91,7 @@ export default function SwagForms() {
 
 
     return (
-        <section className="max-w-xl p-4 mx-auto  rounded-md shadow-md bg-gray-800">
+        <section className="max-w-xl p-4 mx-auto  rounded-md shadow-md bg-gray-800 ">
             <div className="flex items-center justify-center mt-12">
                 <Image className="rounded-2xl" src="/photos/dotSmart.jpeg" alt="logotipo da comunidade Polkadot Brasil na Smart City" width={600} height={600}/>
             </div>
