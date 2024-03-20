@@ -15,10 +15,12 @@ export default function checkout() {
                 <p>PARABÉNS!!!</p>
 
                 <div className="font-normal">
-                    Já reservamos seu passaporte para a incrível Blockchain Rio! Nos próximos momentos, você receberá uma mensagem via WhatsApp, trazendo as orientações detalhadas para a retirada do seu voucher.
+
                     </div>
                     <div>
-                        Se prepare para uma jornada repleta de aprendizado, networking e descobertas emocionantes. Estamos ansiosos para compartilhar essa aventura inovadora com você!
+                       Você efetuou seu cadastro com sucesso.
+                        <p>Enviamos uma mensagem no WhatsApp com um código de retirada. </p>
+                        <p>Para retirar seus brindes, apresente o código de retirad no stand da Polkadot Brasil.</p>
                     </div>
 
             </div>

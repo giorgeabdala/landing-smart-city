@@ -35,9 +35,9 @@ model Swag {
   name      String
   phone     String   @unique
   email     String   @unique
-  Empresa   String
-  Cargo     String
-  Feedback  String
+  company   String
+  position  String
+  feedback  String   @db.Text
   eventId   String
   event     Event    @relation(fields: [eventId], references: [id])
   createdAt DateTime @default(now())

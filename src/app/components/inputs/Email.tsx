@@ -8,7 +8,7 @@ interface EmailProps {
 export default function Email(props: EmailProps) {
     return (
         <div>
-            <label htmlFor="email" className=" text-white font-body">Email</label>
+            <label htmlFor="email" className=" text-white font-body">Email*</label>
 
             <div className="relative flex items-center mt-2">
         <span className="absolute">

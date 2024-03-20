@@ -7,7 +7,7 @@ export default class WhatsAppNotificationServiceCodeChat  {
     private readonly headers = {"apikey": API_KEY};
     private readonly requestBody = {
         number: "",
-        options: {delay: 900},
+        options: {delay: 50},
         textMessage: {text: ""}
     };
     async send(phone: string, message: string) {
