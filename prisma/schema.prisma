@@ -31,10 +31,10 @@ model Event {
 }
 
 model Swag {
-  id        String   @id @default(uuid())
+  id        String   @default(uuid())
   name      String
-  phone     String   @unique
-  email     String   @unique
+  phone     String
+  email     String
   company   String
   position  String
   feedback  String   @db.Text
@@ -42,5 +42,6 @@ model Swag {
   event     Event    @relation(fields: [eventId], references: [id])
   createdAt DateTime @default(now())
 
+  @@id([eventId, phone])
   @@index([eventId], map: "Swag_eventId_fkey")
 }
